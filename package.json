@@ -1,0 +1,21 @@
+{
+  "name": "example-selenium-javascript-mocha",
+  "version": "2.2.0",
+  "description": "An example project for Selenium in JavaScript with Mocha",
+  "scripts": {
+    "test": "mocha --no-timeouts \"test/*.test.js\""
+  },
+  "author": {
+    "name": "Applitools Team",
+    "email": "team@applitools.com"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "@applitools/eyes-selenium": "^4.66.0",
+    "mocha": "^10.2.0",
+    "selenium-webdriver": "^4.9.2"
+  },
+  "engines": {
+    "node": ">=12.13.0"
+  }
+}
